@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color:whitesmoke; /* Fondo gris claro */
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+}
+.datos {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  
+}
+.datos input {
+ width: 300px;
+ height: 30px;
+ font-size: 20px;
+ padding-left: 10px;
+ border-radius: 5px;
+ margin: 5px;
+}
+.datos button {
+  width: 320px;
+  height: 30px;
+  margin-top: 5px;
+ }
+ .navbars{
+  padding: 1rem;
+ }
